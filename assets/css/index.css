@@ -1,0 +1,64 @@
+/* MAIN */
+main {
+    margin-top: 65px;
+    padding: 30px 0;
+}
+
+main h1 {
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    animation: start .6s ease-in ;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    width: 350px;
+    min-height: 200px;
+    border: 1px solid var(--border-bg-color);
+    border-radius: 10px;
+}
+
+.course  img {
+    width: 100px;
+}
+
+.course .btn-course {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-sp-color);
+    color: var(--secondary-txt-color);
+    text-align: center;
+    font-size: 16px;
+}
+
+.course .btn-course:hover {
+    background-color: var(--main-sp-hover-color);
+}
+
+@keyframes start {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+}

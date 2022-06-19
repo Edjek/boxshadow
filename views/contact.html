@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../favicon-32x32.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <title>Boxshadow</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <span class="logo">B<span class="logo-span">ox</span>S<span class="logo-span">hadow</span> </span>
+        </a>
+        <form action="">
+            <input type="search" name="" id="" placeholder="Rechercher">
+            <input type="submit" value="" class="submit-search">
+        </form>
+        <div class="links">
+            <nav>
+                <a href="html.html">HTML</a>
+                <a href="css.html">CSS</a>
+                <a href="#">Quizzz</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="social-media">
+                <a href="https://codepen.io/dihcar-cesar/" title="CodePen">
+                    <img src="../assets/img/codepen.png" alt="lien codepen">
+                </a>
+                <a href="https://github.com/Edjek" title="GitHub">
+                    <img src="../assets/img/github.png" alt="lien github">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>contactez-nous</h1>
+            <form action="../src/contact.php" method="post">
+                <div class="form-contact">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input type="text" name="name" id="name" autofocus>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="subject">Objet</label>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6" required></textarea>
+                    </div>
+                    <input type="submit" value="Envoyer" name="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <span class="domain">B</span>ox<span class="domain">S</span>hadow.fr
+        </p>
+    </footer>
+</body>
+
+</html>
