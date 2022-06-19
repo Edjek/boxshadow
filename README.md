@@ -11,9 +11,6 @@ Learn Html and CSS easily
 Dihcar Kouane
 dihcar@hotmail.fr
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
 ## Version History
 
 1.0
