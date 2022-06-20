@@ -1,8 +1,8 @@
-<footer>
-    <p>
-        <span class="domain">B</span>ox<span class="domain">S</span>hadow.fr
-    </p>
-</footer>
+    <footer>
+        <p>
+            <span class="logo">B</span>ox<span class="logo-var">S</span>hadow.fr
+        </p>
+    </footer>
 </body>
 
 </html>
