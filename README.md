@@ -1,6 +1,6 @@
 # BoxShadow
 
-Simple overview of use/purpose.
+Site d'apprentissage informatique
 
 ## Description
 
