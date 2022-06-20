@@ -23,11 +23,12 @@ h1 {
 .form-contact input,
 textarea {
     margin: 10px 0;
-    padding: 10px;
+    padding: 10px 10px 10px 50px;
     border-radius: 5px;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
 }
+
 .form-contact input:focus,
 textarea:focus {
     outline: 1px solid var(--main-sp-color);
@@ -40,8 +41,31 @@ textarea {
     border: 1px solid var(--border-bg-color);
 }
 
+.form-contact .form-person,
+.form-email,
+.form-message,
+.form-send {
+    position: relative;
+}
+
+.form-contact .form-person i,
+.form-email i,
+.form-message i {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: var(--main-sp-color);
+}
+
+.form-send i {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: var(--secondary-txt-color);
+}
+
 .form-contact [type="submit"] {
-    width: 150px;
+    padding: 10px 60px 10px 20px;
     border: none;
     background-color: var(--main-sp-color);
     color: var(--secondary-txt-color);

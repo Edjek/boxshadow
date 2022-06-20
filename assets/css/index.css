@@ -22,7 +22,6 @@ main h2 {
     justify-content: center;
     gap: 50px;
     padding: 100px;
-    animation: start .6s ease-in ;
 }
 
 .course {
@@ -36,6 +35,10 @@ main h2 {
     min-height: 200px;
     border: 1px solid var(--border-bg-color);
     border-radius: 10px;
+    color: var(--main-txt-color);
+    font-family: 'Poppins';
+    font-size: 16px;
+    animation: start .6s ease-out ;
 }
 
 .course  img {
@@ -59,6 +62,7 @@ main h2 {
 @keyframes start {
     from {
         opacity: 0;
+        /* transform: scale(.5); */
         transform: translateY(80px);
     }
 }

@@ -3,7 +3,7 @@
 :root {
     --main-bg-color: rgb(32, 33, 49);
     --main-sp-color: rgb(50, 91, 201);
-    --main-sp-pink-color: rgb(177, 51, 186);
+    --main-sp-pink-color: rgb(175, 73, 187);
     --main-sp-hover-color: rgb(44, 78, 172);
     --main-txt-color: rgb(0, 34, 65);
     --secondary-txt-color: rgb(255, 255, 255);
@@ -21,6 +21,7 @@
 body {
     font-family: 'Nunito', 'Roboto Flex', sans-serif;
     font-size: 18px;
+    overflow-wrap: break-word;
     color: var(--main-txt-color);
 }
 
@@ -44,7 +45,7 @@ header {
     gap: 50px;
     width: 100%;
     height: 65px;
-    padding: 0 150px;
+    padding: 0 100px;
     background-color: var(--main-bg-color);
     color: var(--secondary-txt-color);
 }
@@ -123,7 +124,7 @@ main {
 
 /* FOOTER */
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-size: 13px;
     background-color: var(--main-bg-color);

@@ -8,8 +8,8 @@ Learn Html and CSS easily
 
 ## Authors
 
-Dihcar Kouane
-dihcar@hotmail.fr
+EDJEKOUANE Rachid
+edjek@hotmail.fr
 
 ## Version History
 
