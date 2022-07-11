@@ -59,6 +59,7 @@
                 </div>
             </div>
             <ul class="menu-hamburger">
+                <li><a href="../index.php">Accueil</a></li>
                 <li><a href="../views/html.php">HTML</a></li>
                 <li><a href="../views/css.php">CSS</a></li>
                 <li><a href="../views/quiz.php">Quizzz</a></li>
