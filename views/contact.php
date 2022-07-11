@@ -1,8 +1,6 @@
 <?php
 $current_title = 'Contact';
 $current_css = 'contact';
-$current_link = '<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-';
 
 include_once '../templates/header.php';
 ?>
@@ -10,11 +8,11 @@ include_once '../templates/header.php';
 <main>
     <section>
         <form action="../src/contact.php" method="post">
-            <h1>contactez-nous</h1>
+            <h1>Contactez-nous</h1>
             <div class="form-contact">
                 <div class="form-person">
                     <label for="name">Nom</label>
-                    <input type="text" name="name" id="name" autofocus>
+                    <input type="text" name="name" id="name" required autofocus>
                     <i class="material-icons">person</i>
                 </div>
                 <div class="form-email">
@@ -28,8 +26,9 @@ include_once '../templates/header.php';
                     <i class="material-icons">edit</i>
                 </div>
                 <div class="form-send">
-                    <input type="submit" value="Envoyer" name="submit">
-                    <i class="material-icons">send</i>
+                    <button type="submit" name="submit">
+                        <i class="material-icons">send</i>Envoyer
+                    </button>
                 </div>
             </div>
         </form>

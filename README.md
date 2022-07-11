@@ -16,4 +16,3 @@ edjek@hotmail.fr
 1.0
 
 ## License
-
