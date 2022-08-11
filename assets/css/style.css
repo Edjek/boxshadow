@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,400;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap');
 
-
 :root {
-/* --main-sp-color: rgb(91, 106, 191); */
+    /* --main-sp-color: rgb(91, 106, 191); */
 
-    --main-bg-color: rgb(32,33,49);
+    --main-bg-color: rgb(32, 33, 49);
     --main-bg-hover-color: rgba(91, 106, 191, 0.3);
-    --main-sp-color: rgb(50,91,201);
-    --main-sp-var-color: rgb(91,106,191);
-    --main-sp-hover-color: rgb(44,78,172);
-    --main-txt-color: rgb(0,34,65);
-    --secondary-txt-color: rgb(255,255,255);
-    --border-bg-color: rgb(221,221,221);
+    --main-sp-color: rgb(50, 91, 201);
+    --main-sp-var-color: rgb(91, 106, 191);
+    --main-sp-hover-color: rgb(44, 78, 172);
+    --main-txt-color: rgb(0, 34, 65);
+    --secondary-txt-color: rgb(255, 255, 255);
+    --border-bg-color: rgb(221, 221, 221);
 }
 
 *,
@@ -20,20 +19,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito','Roboto Flex',sans-serif;
+    font-family: 'Nunito', 'Roboto Flex', sans-serif;
     font-weight: 400;
 }
 
 html {
-/* fallback IE8+ */
-
     font-size: 0.625em;
     font-size: calc(1em * 0.625);
 }
 
 body {
-/* base font-size is equivalent "18px" */
-
+    /* base font-size is equivalent "18px" */
     font-size: 1.8rem;
     color: var(--main-txt-color);
 }
@@ -51,6 +47,7 @@ a {
 
 img {
     max-width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -314,13 +311,13 @@ footer .logo-var {
     color: var(--main-sp-var-color);
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width: 992px) {
     header .social-media {
         display: none;
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
         padding: 1em 1em;
@@ -350,7 +347,7 @@ footer .logo-var {
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -385,18 +382,17 @@ footer .logo-var {
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,400;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap');
 
-
 :root {
-/* --main-sp-color: rgb(91, 106, 191); */
+    /* --main-sp-color: rgb(91, 106, 191); */
 
-    --main-bg-color: rgb(32,33,49);
+    --main-bg-color: rgb(32, 33, 49);
     --main-bg-hover-color: rgba(91, 106, 191, 0.3);
-    --main-sp-color: rgb(50,91,201);
-    --main-sp-var-color: rgb(91,106,191);
-    --main-sp-hover-color: rgb(44,78,172);
-    --main-txt-color: rgb(0,34,65);
-    --secondary-txt-color: rgb(255,255,255);
-    --border-bg-color: rgb(221,221,221);
+    --main-sp-color: rgb(50, 91, 201);
+    --main-sp-var-color: rgb(91, 106, 191);
+    --main-sp-hover-color: rgb(44, 78, 172);
+    --main-txt-color: rgb(0, 34, 65);
+    --secondary-txt-color: rgb(255, 255, 255);
+    --border-bg-color: rgb(221, 221, 221);
 }
 
 *,
@@ -405,19 +401,19 @@ footer .logo-var {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito','Roboto Flex',sans-serif;
+    font-family: 'Nunito', 'Roboto Flex', sans-serif;
     font-weight: 400;
 }
 
 html {
-/* fallback IE8+ */
+    /* fallback IE8+ */
 
     font-size: 0.625em;
     font-size: calc(1em * 0.625);
 }
 
 body {
-/* base font-size is equivalent "18px" */
+    /* base font-size is equivalent "18px" */
 
     font-size: 1.8rem;
     color: var(--main-txt-color);
@@ -436,6 +432,7 @@ a {
 
 img {
     max-width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -699,13 +696,13 @@ footer .logo-var {
     color: var(--main-sp-var-color);
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width: 992px) {
     header .social-media {
         display: none;
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
         padding: 1em 1em;
@@ -735,7 +732,7 @@ footer .logo-var {
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
     header {
         flex-direction: row;
         justify-content: space-between;
